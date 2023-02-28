@@ -1,0 +1,66 @@
+/* Write your CSS code here */
+.coin-data-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+@media screen and (max-width: 767px) {
+  .coin-data-container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo-img {
+  height: 30px;
+  width: 30px;
+  border-radius: 30px;
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 767px) {
+  .logo-img {
+    height: 20px;
+    width: 20px;
+    border-radius: 20px;
+    margin-right: 8px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .name {
+    font-size: 15px;
+  }
+}
+
+.data-container {
+  display: flex;
+  justify-content: space-between;
+  width: 25%;
+}
+
+@media screen and (max-width: 767px) {
+  .data-container {
+    width: 50%;
+  }
+}
+
+.value {
+  width: 30%;
+  text-align: right;
+}
+
+@media screen and (max-width: 767px) {
+  .value {
+    width: 43%;
+  }
+}
